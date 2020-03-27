@@ -10,9 +10,9 @@ provider "azurerm" {}
 # Uncomment this provider block if you are using variables (NOT environment variables)
 # to provide the azurerm provider requirements.
 #
-# provider "azurerm" {
-#   subscription_id = "${var.subscription_id}"
-#   client_id       = "${var.client_id}"
-#   client_secret   = "${var.client_secret}"
-#   tenant_id       = "${var.tenant_id}"
-# }
+provider "azurerm" {
+   subscription_id = "${var.subscription_id}"
+   client_id       = "${var.client_id}"
+   client_secret   = "${var.client_secret}"
+   tenant_id       = "${var.tenant_id}"
+}
